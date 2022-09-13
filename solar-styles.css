@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.7));
+    background-image: url("media/images/stars.jpg");
   }
   
   .planet,
@@ -16,8 +16,8 @@ body {
   .sun {
     --size: 100px;
     --push: 0px;
-    background: linear-gradient(45deg, goldenrod, yellow);
-    animation: orbit 1s infinite linear;
+    background-image: url("media/images/sun.jpg");
+    animation: orbit 10s infinite linear;
   }
   
   .mercury {

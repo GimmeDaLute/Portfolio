@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-image: url("media/images/stars.jpg");
+    background-image: url("./media/stars.jpg");
   }
   
   .planet,
@@ -16,7 +16,7 @@ body {
   .sun {
     --size: 100px;
     --push: 0px;
-    background-image: url("media/images/sun.jpg");
+    background-image: url("./media/sun.jpg");
     animation: orbit 10s infinite linear;
   }
   

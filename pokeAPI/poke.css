@@ -1,17 +1,35 @@
-.center {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #ea1a0ca4;
-    background-color: #ccf6fe81;
-    padding: 10px;
-    text-align: center;
-  }
+html {
+  height: 100%;
+}
 
-  div.container {
-    text-align: center;
-  }
-  
-  ul.centeredUL {
-    display: inline-block;
-    text-align: left;
-  }
+
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  border: 3px solid #ea1a0ca4;
+  background-color: #ccf6fe81;
+  padding: 10px;
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.centeredUL {
+  display: inline-block;
+  text-align: center;
+}
+
+#randomPokemonButton, #previousPokemonButton, #nextPokemonButton {
+  margin: 5px 5px 5px 5px;
+}

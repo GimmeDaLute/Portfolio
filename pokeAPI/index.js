@@ -43,7 +43,7 @@ const fetchAsync = async (pokemonIndex) => {
     pokemonMoveList.innerHTML = "";
     for (let index = 0; index < 4; index++) {
         let li = document.createElement("li")
-        li.textContent = pokemonData.moves[index].move.name;
+        li.textContent = capitalizeFirstLetter(pokemonData.moves[index].move.name);
         pokemonMoveList.appendChild(li);
     }
 

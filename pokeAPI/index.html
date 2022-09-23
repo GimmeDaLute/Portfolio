@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon App in JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./poke.css">
     <link rel="icon" type="image/x-icon"
         href="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg">
@@ -14,24 +19,25 @@
 
 <body style="background-image: url('./media/pokemon_masters_city.jpg');">>
     <div class="center" id="mainDiv">
-        <h1 id="pokemonName"></h1>
+        <h1 class="display-1" id="pokemonName"></h1>
         <img id="pokemonFrontSprite">
         <img id="pokemonBackSprite">
         <br>
+        <h2 class="h3">Type:</h2>
         <img id="pokemonTypeImage">
         <img id="pokemonTypeImageTwo">
-        <h3 id="pokemonType"></h3>
+        <h3 class="h4" id="pokemonType"></h3>
 
         <div class="container">
-        <h2>Moves:</h2>
-        <ul class="centerUL" id="moveList">
-        </ul></div>
-        
-        <button id="previousPokemonButton">Previous Pokemon</button>
-        <button id="nextPokemonButton">Next Pokemon</button>
-        <br>
-        <button id="randomPokemonButton">Random Pokemon</button>
-        
+            <h2 class="h3">Moves:</h2>
+            <ul class="centerUL" style="list-style-type:circle;" id="moveList">
+            </ul>
+        </div>
+
+        <button id="previousPokemonButton" type="button" class="btn btn-light">Previous Pokemon</button>
+        <button id="randomPokemonButton" type="button" class="btn btn-secondary">Random Pokemon</button>
+        <button id="nextPokemonButton" type="button" class="btn btn-light">Next Pokemon</button>
+
     </div>
 </body>
 

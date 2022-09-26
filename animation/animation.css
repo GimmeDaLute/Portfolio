@@ -1,0 +1,13 @@
+#animationContainer {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background: lightblue;
+  }
+  
+  #simpleAnimation {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: crimson;
+  }

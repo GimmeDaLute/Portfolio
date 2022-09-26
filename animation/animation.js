@@ -1,17 +1,17 @@
-var id = null;
+var animation = null;
 
-function myMove() {
-  var elem = document.getElementById("simpleAnimation");   
-  var pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 10);
+function animationFunction() {
+  var animatedElement = document.getElementById("simpleAnimation");   
+  var position = 0;
+  clearInterval(animation);
+  animation = setInterval(frame, 10);
   function frame() {
-    if (pos == 315) {
-      clearInterval(id);
+    if (position == 315) {
+      clearInterval(animation);
     } else {
-      pos++; 
-      elem.style.top = pos + 'px'; 
-      elem.style.left = pos + 'px'; 
+      position++; 
+      animatedElement.style.top = position + 'px'; 
+      animatedElement.style.left = position + 'px'; 
     }
   }
 }

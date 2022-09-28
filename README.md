@@ -1,4 +1,5 @@
 # Peter Edwards Portfolio
+![Geo shapes](./media/geo.jpg "Geo shapes")
 ### Futureproof Portfolio Project
 This project is to deliver a HTML portfolio to showcase my projects and skills developed during my FutureProof training course, as well as personal projects.
 

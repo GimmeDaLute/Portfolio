@@ -23,6 +23,7 @@ body {
 
 div.container {
   text-align: center;
+  display: inline-block;
 }
 
 ul.centeredUL {

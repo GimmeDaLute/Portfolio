@@ -3,6 +3,8 @@
     height: 350px;
     position: relative;
     background: lightblue;
+    border:2px solid lightskyblue;
+    border-style: ridge;
   }
   
   #simpleAnimation {
@@ -10,4 +12,8 @@
     height: 35px;
     position: absolute;
     background: crimson;
+  }
+
+  #background {
+    background: lightblue;
   }
